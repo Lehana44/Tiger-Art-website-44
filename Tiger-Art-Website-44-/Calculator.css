@@ -1,0 +1,43 @@
+.calculator {
+    border: 10px solid blue;
+    background: blue;
+    border-radius: 20px;
+    width: 310px;
+    height: 420px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+}
+
+
+.scrin {
+    position: absolute;
+    border-radius: 20px;
+    background: lightgreen;
+    left: 2px;
+    height: 110px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.buttons {
+    width: 300x;
+    position: absolute;
+    height: 300px;
+    left: 364px;
+    bottom: 60px;
+    padding: 11px 75px 0 0;
+}
+
+button {
+    border:none;
+    border-radius: 20px;
+box-shadow: 200px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 15px;
+    size: 50px;
+    width: 60px;
+    cursor: pointer;
+}
