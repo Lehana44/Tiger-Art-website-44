@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background: #333;
 }
 
 .navbar {
@@ -61,3 +62,73 @@ body {
 }
 
 /*****************************************************Nabar Section*********************************************/
+
+
+/*****************************************************Section1**************************************************/
+.section1 {
+border:solid blue 5px;
+color: #fff;
+
+}
+
+.section1 h1{
+font-size: 40px;
+}
+
+.section1 p{
+    justify-items: left;
+    font-size: 25px;
+    flex-wrap:wrap;
+    width: 610px;
+    }
+
+.section1 h2{
+    font-size: 25px;
+    }
+
+    .btn {
+        display: flex;
+        gap: 15px; /* Space between buttons */
+        margin: 20px 0;
+    }
+    
+    .button {
+        background-color: #4CAF50; /* Green background */
+        color: white; /* White text */
+        padding: 15px 30px; /* Padding for buttons */
+        text-align: center; /* Center text */
+        text-decoration: none; /* Remove underline */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for hover effects */
+    }
+    
+    .button:hover {
+        background-color: #45a049; /* Darker green on hover */
+        transform: translateY(-3px); /* Lift effect on hover */
+    }
+    
+    /* Animation for buttons when they first appear */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .button {
+        animation: fadeIn 0.5s ease forwards; /* Apply animation */
+    }
+
+    .section1 img {
+     position: relative;
+     left: 700px;
+     bottom: 400px;
+     width: 500px;
+     height: 400px;   
+    }
+    
+/*****************************************************Section1**************************************************/
